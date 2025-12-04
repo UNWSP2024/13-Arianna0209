@@ -8,7 +8,7 @@ cursor = conn.cursor()
 
 cursor.execute('''CREATE TABLE IF NOT EXISTS Cities (CityID INTEGER PRIMARY KEY NOT NULL, CityName TEXT, Population TEXT)''')
 
-cursor.execute('''INSERT INTO Cites (CityName, Population) VALUES ("Jordan", 6800)''')
+cursor.execute('''INSERT INTO Cities (CityName, Population) VALUES ("Jordan", 6800)''')
 
 conn.commit()
 
